@@ -1,4 +1,4 @@
-export const rooms = [
+export const areas = [
   "Badezimmer EG",
   "Küche",
   "Wohnzimmer",
@@ -16,7 +16,7 @@ export const tasks = [
   {
     id: "1",
     title: "Toilette putzen",
-    room: "Badezimmer EG",
+    area: "Badezimmer EG",
     lastDone: new Date("2023-10-16"),
     interval: 7,
     selected: true,
@@ -24,7 +24,7 @@ export const tasks = [
   {
     id: "2",
     title: "Handtücher wechseln",
-    room: "Badezimmer EG",
+    area: "Badezimmer EG",
     lastDone: new Date("2023-10-24"),
     interval: 4,
     selected: true,
@@ -32,7 +32,7 @@ export const tasks = [
   {
     id: "3",
     title: "Boden wischen",
-    room: "Badezimmer EG",
+    area: "Badezimmer EG",
     lastDone: new Date("2023-10-24"),
     interval: 30,
     selected: true,
@@ -40,7 +40,7 @@ export const tasks = [
   {
     id: "4",
     title: "Abflüsse reinigen",
-    room: "Badezimmer EG",
+    area: "Badezimmer EG",
     lastDone: new Date("2023-10-24"),
     interval: 180,
     selected: true,
@@ -48,7 +48,7 @@ export const tasks = [
   {
     id: "5",
     title: "Zahnbürste wechseln",
-    room: "Badezimmer EG",
+    area: "Badezimmer EG",
     lastDone: new Date("2023-10-24"),
     interval: 60,
     selected: false,
@@ -56,7 +56,7 @@ export const tasks = [
   {
     id: "6",
     title: "Kühlschrank putzen",
-    room: "Küche",
+    area: "Küche",
     lastDone: new Date("2023-10-24"),
     interval: 60,
     selected: true,
@@ -64,7 +64,7 @@ export const tasks = [
   {
     id: "7",
     title: "Handtücher wechseln",
-    room: "Küche",
+    area: "Küche",
     lastDone: new Date("2023-10-24"),
     interval: 4,
     selected: true,
@@ -72,7 +72,7 @@ export const tasks = [
   {
     id: "8",
     title: "Backofen reinigen",
-    room: "Küche",
+    area: "Küche",
     lastDone: new Date("2023-10-24"),
     interval: 60,
     selected: true,
@@ -80,7 +80,7 @@ export const tasks = [
   {
     id: "9",
     title: "Oberflächen abwischen",
-    room: "Küche",
+    area: "Küche",
     lastDone: new Date("2023-10-24"),
     interval: 7,
     selected: false,
@@ -88,7 +88,7 @@ export const tasks = [
   {
     id: "10",
     title: "Wasserkocher entkalken",
-    room: "Küche",
+    area: "Küche",
     lastDone: new Date("2023-10-24"),
     interval: 30,
     selected: true,

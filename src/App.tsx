@@ -1,5 +1,5 @@
 import { Task } from "./components/Task";
-import { tasks } from "./data/tasks";
+import tasks from "./data/apiTasks";
 
 function App() {
   return (

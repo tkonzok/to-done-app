@@ -9,7 +9,7 @@ import { CheckSquare, PenSquare } from "lucide-react";
 type TaskProps = {
   id: string;
   title: string;
-  room: string;
+  area: string;
   lastDone: Date;
   interval: number;
   selected: boolean;
@@ -18,7 +18,7 @@ type TaskProps = {
 export function Task({
   id,
   title,
-  room,
+  area,
   lastDone,
   interval,
   selected,
@@ -35,7 +35,7 @@ export function Task({
       <div
         className={`grid grid-rows-[1fr,auto,1fr] p-1 ${textColor(daysLeft)}`}
       >
-        <div className="text-sm">{room}</div>
+        <div className="text-sm">{area}</div>
         <div className="flex items-center text-lg font-bold">{title}</div>
         <div className="text-sm">
           {dueDate} | zuletzt {lastDone.getDate()}.{lastDone.getMonth() + 1}.
