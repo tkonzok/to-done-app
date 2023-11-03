@@ -1,4 +1,5 @@
 import { Task } from "./components/Task";
+import { TaskCreate } from "./components/TaskCreate";
 import tasks from "./data/apiTasks";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       {tasks.map((task) => (
         <Task key={task.id} {...task} />
       ))}
+      <TaskCreate />
     </div>
   );
 }

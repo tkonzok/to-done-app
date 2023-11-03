@@ -25,6 +25,5 @@ for (const entry of data) {
   task.lastDone = new Date(task.lastDone.split("T")[0]);
   tasks.push(task);
 }
-console.log(tasks);
 
 export default tasks;
